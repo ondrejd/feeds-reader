@@ -1,0 +1,86 @@
+{
+	"title": "Feeds Reader",
+	"name": "feeds-reader",
+	"version": "0.0.1",
+	"description": "Personal feeds reader.",
+	"main": "index.js",
+	"author": {
+		"name": "Ondřej Doněk",
+		"email": "ondrejd@gmail.com",
+		"url": "https://ondrejdonek.blogspot.com/"
+	},
+	"engines": {
+		"firefox": ">=38.0a1"
+	},
+	"license": "MPL-2.0",
+	"homepage": "https://github.com/ondrejd/feeds-reader",
+	"permissions": {
+		"private-browsing": true,
+		"multiprocess": true
+	},
+	"preferences": [{
+		"name": "contentStyle",
+		"title": "Content style",
+		"description": "Choose style for the add-on.",
+		"type": "menulist",
+		"value": "deep-orange",
+		"options": [{
+			"value": "red",
+			"label": "Red"
+		}, {
+			"value": "pink",
+			"label": "Pink"
+		}, {
+			"value": "purple",
+			"label": "Purple"
+		}, {
+			"value": "deep-purple",
+			"label": "Deep Purple"
+		}, {
+			"value": "indigo",
+			"label": "Indigo"
+		}, {
+			"value": "blue",
+			"label": "Blue"
+		}, {
+			"value": "light-blue",
+			"label": "Light Blue"
+		}, {
+			"value": "cyan",
+			"label": "Cyan"
+		}, {
+			"value": "teal",
+			"label": "Teal"
+		}, {
+			"value": "green",
+			"label": "Green"
+		}, {
+			"value": "light-green",
+			"label": "Light Green"
+		}, {
+			"value": "lime",
+			"label": "Lime"
+		}, {
+			"value": "yellow",
+			"label": "Yellow"
+		}, {
+			"value": "amber",
+			"label": "Amber"
+		}, {
+			"value": "orange",
+			"label": "Orange"
+		}, {
+			"value": "deep-orange",
+			"label": "Deep Orange"
+		}, {
+			"value": "brown",
+			"label": "Brown"
+		}, {
+			"value": "gray",
+			"label": "Gray"
+		}, {
+			"value": "blue-gray",
+			"label": "Blue Gray"
+		}]
+	}]
+}
